@@ -1,0 +1,42 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+main{display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  
+   
+}
+.maindiv{
+    /* background-color: aqua; */
+     height: 100vh;
+    width:100%;
+    
+    text-align: center;
+    padding: 10%;
+}
+
+.btndiv{ width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.progressDiv{position: absolute;
+  }
+  .answerDiv{
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+  }
+  .card{cursor: pointer;
+    width: 30%;
+}
+  .questionDiv{
+    height: 50%;
+  }
+  .questionNumber{
+    font-weight: bold;
+  }
